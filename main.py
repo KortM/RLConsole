@@ -67,7 +67,8 @@ async def main():
             ))
             tasks.append(task)
         await asyncio.wait(tasks)
-        print('Обновление завершено.\nРезультаты смотрите в файле success_update.txt')
+        print('Обновление завершено.\nРезультаты смотрите в файле success_update.txt\n')
+        input('Для завершения нажмите любую клавишу')
 
 asyncio.run(main())
 
